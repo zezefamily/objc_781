@@ -287,6 +287,7 @@
 		F9BCC727205C68E800DD9AFC /* libobjc-trampolines.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libobjc-trampolines.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9E87EE250F73BE00742793 /* ZZPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPerson.h; sourceTree = "<group>"; };
 		FF9E87EF250F73BE00742793 /* ZZPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPerson.m; sourceTree = "<group>"; };
+		FF9E87F3250F7DE300742793 /* LLDB_LOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LLDB_LOG.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -403,6 +404,7 @@
 				7A88076624CACD8C0070C15B /* LGPerson.m */,
 				FF9E87EE250F73BE00742793 /* ZZPerson.h */,
 				FF9E87EF250F73BE00742793 /* ZZPerson.m */,
+				FF9E87F3250F7DE300742793 /* LLDB_LOG.md */,
 			);
 			path = KCObjc;
 			sourceTree = "<group>";
