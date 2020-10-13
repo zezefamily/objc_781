@@ -9,13 +9,24 @@
 
 @implementation ZZPerson
 
-- (void)testInstanceMethod
+- (void)testInstanceMethod0
 {
-    
+    NSLog(@"我是实例方法0");
 }
-+ (void)testClassMethod
+- (void)testInstanceMethod1
 {
-    
+    NSLog(@"我是实例方法1");
 }
+
++ (void)testClassMethod0
+{
+    NSLog(@"我是类方法0");
+}
+
++ (void)testClassMethod1
+{
+   NSLog(@"我是类方法1");
+}
+
 
 @end

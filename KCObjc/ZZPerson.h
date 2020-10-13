@@ -15,8 +15,11 @@ NS_ASSUME_NONNULL_BEGIN
 }
 @property (nonatomic,copy) NSString *zz_name;
 
-- (void)testInstanceMethod;
-+ (void)testClassMethod;
+- (void)testInstanceMethod0;
+- (void)testInstanceMethod1;
+
++ (void)testClassMethod0;
++ (void)testClassMethod1;
 
 @end
 
