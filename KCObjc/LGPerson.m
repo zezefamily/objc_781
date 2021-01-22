@@ -9,4 +9,8 @@
 
 @implementation LGPerson
 
+- (viod)testAbcd{
+    //testABCDEFG HIJKLMNOPQRSTUVWXYZ
+}
+
 @end
