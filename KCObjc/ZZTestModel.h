@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ZZTestModel : NSObject
-
+- (void)addTestApi;
 @end
 
 NS_ASSUME_NONNULL_END
