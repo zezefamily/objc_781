@@ -20,12 +20,12 @@
 
 + (void)testClassMethod0
 {
-    NSLog(@"我是类方法0");
+    NSLog(@"我是类方法05554545454545");
 }
 
 + (void)testClassMethod1
 {
-   NSLog(@"我是类方法1");
+   NSLog(@"我是类方法111111111111111111111");
 }
 
 
