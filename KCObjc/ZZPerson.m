@@ -26,6 +26,8 @@
 + (void)testClassMethod1
 {
    NSLog(@"我是类方法1");
+    NSLog(@"我是类方法2");
+
 }
 
 
