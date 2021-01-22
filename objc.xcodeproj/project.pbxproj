@@ -131,6 +131,7 @@
 		83F550E0155E030800E95D3B /* objc-cache-old.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83F550DF155E030800E95D3B /* objc-cache-old.mm */; };
 		87BB4EA70EC39854005D08E1 /* objc-probes.d in Sources */ = {isa = PBXBuildFile; fileRef = 87BB4E900EC39633005D08E1 /* objc-probes.d */; };
 		9672F7EE14D5F488007CEC96 /* NSObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9672F7ED14D5F488007CEC96 /* NSObject.mm */; };
+		C2685E9025BA7A24008F4D3E /* ZZTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2685E8F25BA7A24008F4D3E /* ZZTestModel.m */; };
 		C2E6D3FC2225DCF00059DFAA /* DenseMapExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E6D3FB2225DCF00059DFAA /* DenseMapExtras.h */; };
 		E8923DA5116AB2820071B552 /* objc-block-trampolines.mm in Sources */ = {isa = PBXBuildFile; fileRef = E8923DA0116AB2820071B552 /* objc-block-trampolines.mm */; };
 		F9BCC71B205C68E800DD9AFC /* objc-blocktramps-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 8379996D13CBAF6F007C2B5F /* objc-blocktramps-arm64.s */; };
@@ -279,6 +280,8 @@
 		87BB4E900EC39633005D08E1 /* objc-probes.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; name = "objc-probes.d"; path = "runtime/objc-probes.d"; sourceTree = "<group>"; };
 		9672F7ED14D5F488007CEC96 /* NSObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NSObject.mm; path = runtime/NSObject.mm; sourceTree = "<group>"; };
 		BC8B5D1212D3D48100C78A5B /* libauto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libauto.dylib; path = /usr/lib/libauto.dylib; sourceTree = "<absolute>"; };
+		C2685E8E25BA7A24008F4D3E /* ZZTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZTestModel.h; sourceTree = "<group>"; };
+		C2685E8F25BA7A24008F4D3E /* ZZTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTestModel.m; sourceTree = "<group>"; };
 		C2E6D3FB2225DCF00059DFAA /* DenseMapExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DenseMapExtras.h; path = runtime/DenseMapExtras.h; sourceTree = "<group>"; };
 		D2AAC0630554660B00DB518D /* libobjc.A.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libobjc.A.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8923D9C116AB2820071B552 /* objc-blocktramps-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-blocktramps-i386.s"; path = "runtime/objc-blocktramps-i386.s"; sourceTree = "<group>"; };
@@ -405,6 +408,8 @@
 				FF9E87EE250F73BE00742793 /* ZZPerson.h */,
 				FF9E87EF250F73BE00742793 /* ZZPerson.m */,
 				FF9E87F3250F7DE300742793 /* LLDB_LOG.md */,
+				C2685E8E25BA7A24008F4D3E /* ZZTestModel.h */,
+				C2685E8F25BA7A24008F4D3E /* ZZTestModel.m */,
 			);
 			path = KCObjc;
 			sourceTree = "<group>";
@@ -746,6 +751,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A88076124CACD200070C15B /* main.m in Sources */,
+				C2685E9025BA7A24008F4D3E /* ZZTestModel.m in Sources */,
 				7A88076724CACD8C0070C15B /* LGPerson.m in Sources */,
 				FF9E87F0250F73BE00742793 /* ZZPerson.m in Sources */,
 			);
