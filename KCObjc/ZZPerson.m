@@ -11,11 +11,11 @@
 
 - (void)testInstanceMethod0
 {
-    NSLog(@"我是实例方法0");
+    NSLog(@"我是实例方法0~~~~~~~~~~~~~");
 }
 - (void)testInstanceMethod1
 {
-    NSLog(@"我是实例方法1");
+    NSLog(@"我是实例方法13333333333333");
 }
 
 + (void)testClassMethod0
